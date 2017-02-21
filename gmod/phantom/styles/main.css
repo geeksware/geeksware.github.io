@@ -32,6 +32,9 @@ body {
 }
 .loading-screen .logo-container {
   margin: 0 0 25px 0;
+      background: rgb(200, 54, 54);
+          background: rgba(0, 0, 0, 0.5);
+	      border-radius: 4px;
 }
 .loading-screen .content-container {
   width: 720px;
