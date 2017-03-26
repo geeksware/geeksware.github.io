@@ -14,7 +14,6 @@ contentLoaded(window, function () {
      * @type {Array}
      */
     var fixture = [
-        {"func":"GameDetails","args":["[UK] Danktown | Slave of GMod","st.compactgamers.com/loading/garrysmod/ttt/bg-pointshop.php?steamid=76561197991989781","sog_motel",16,"76561197991989781","slaveofgmod"],"time":854},
         {"func":"DownloadingFile","args":["maps/ttt_minecraftcity_v4_dark.bsp"],"time":1972},
         {"func":"SetFilesNeeded","args":[21],"time":2435},
         {"func":"SetFilesTotal","args":[73],"time":2436},
