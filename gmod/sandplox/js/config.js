@@ -13,7 +13,7 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Welcome to Dankwood | Sandbox";
+var l_serverName = "Welcome to Dankwood Sandbox";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,9 +50,13 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+	"backgrounds/images/background01.png",
+	"backgrounds/images/background02.jpg",
+	"backgrounds/images/background03.png",
+	"backgrounds/images/background04.jpg",
+	"backgrounds/images/background05.jpg",
+	"backgrounds/images/background06.jpg",
+	"backgrounds/images/background07.jpg"
 ];
 
 /*Random background images order?*/
@@ -85,11 +89,14 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"}
+	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
+	{ogg: "songs/A Soul as Red as a Ground Cherry.ogg", name: "A Soul as Red as a Ground Cherry"},
+	{ogg: "songs/Crimson in the Black Sea.ogg", name: "Crimson in the Black Sea"},
+	{ogg: "songs/Desire Drive.ogg", name: "Desire Drive"}
 ];
 
 /*Random music order?*/
-var l_musicRandom = true;
+var l_musicRandom = false;
 
 /*Music volume
 Choose a value between 0 and 100*/
