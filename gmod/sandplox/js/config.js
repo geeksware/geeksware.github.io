@@ -109,7 +109,8 @@ var l_messagesEnabled = true;
 var l_messages = [
 "Enjoy the server",
 "Thanks for joining us!",
-"Please don't grief builders"
+"Type !commands for a list of commands in game",
+"Please don't grief builders. They're people too"
 ];
 
 /*Random message order?*/
